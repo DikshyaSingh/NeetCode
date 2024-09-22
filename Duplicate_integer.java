@@ -14,8 +14,9 @@ class Duplicate_integer {
     }
     public static void main(String[] args) {
         Duplicate_integer di = new Duplicate_integer();
-        int[] nums ={1,2,3,4};
-        if (di.duplicateInteger(nums)) {
+        int[] nums = {1,2,3,4};
+        if (di.duplicateInteger(nums))
+        {
             System.out.println("Duplicate integer found!");
         } else {
             System.out.println("No duplicate integers.");
