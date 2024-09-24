@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 class Duplicate_integer {
     public boolean duplicateInteger (int[] nums){
-        HashSet<Integer> numb = new HashSet<>();
+        HashSet<Integer> numb =new HashSet<>();
 
         for (int i = 0; i < nums.length; i++) {
             if (numb.contains(nums[i]))
